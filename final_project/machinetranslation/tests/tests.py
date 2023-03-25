@@ -1,7 +1,6 @@
 import unittest
 
-from translator import englishToFrench, frenchToEnglish
-
+from machinetranslation.translator import englishToFrench, frenchToEnglish
 
 class TestMyModule(unittest.TestCase):
     def test_null_e2f(self):
